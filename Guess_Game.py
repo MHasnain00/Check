@@ -7,6 +7,7 @@ print('3: Your Lucky number')
 print('4: Character count in Paragraph')
 print('5: True or False')
 print('6: Exit')
+print('7: Update')
 print('...........................\n')
 Enter = int(input('Please choose a number : '))
 if Enter==1:
@@ -50,6 +51,9 @@ elif Enter==5:
         else:
             print('Your word is not Palindrome.Try again...')
     Palindrome_func(Check)
+elif Enter==7:
+    os.system('rm -rf /data/data/com.termux/files/home/Check')
+    os.system('git clone https://github.com/MHasnain00/Check')
 elif Enter==6:
     print('Good bye ')
 else:
