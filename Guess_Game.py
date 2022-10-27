@@ -51,9 +51,9 @@ elif Enter==5:
         else:
             print('Your word is not Palindrome.Try again...')
     Palindrome_func(Check)
-elif Enter==7:
-    os.system('rm -rf /data/data/com.termux/files/home/Check')
-    os.system('git clone https://github.com/MHasnain00/Check')
+#elif Enter==7:
+#    os.system('rm -rf /data/data/com.termux/files/home/Check')
+#    os.system('git clone https://github.com/MHasnain00/Check')
 elif Enter==6:
     print('Good bye ')
 else:
